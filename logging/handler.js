@@ -30,7 +30,7 @@ let generateEmailContent = (data, message) => {
 
   let emailContent = {
     Destination: {
-      ToAddresses: ["manojf.uom@gmail.com"]
+      ToAddresses: ["joao.alves64@gmail.com"]
     },
     Message: {
       Body: {
@@ -48,12 +48,12 @@ let generateEmailContent = (data, message) => {
         Data: subject
       }
     },
-    Source: "manojf.uom@gmail.com",
-    SourceArn: "arn:aws:ses:us-east-1:885121665536:identity/manojf.uom@gmail.com",
+    Source: "joao.alves64@gmail.com",
+    SourceArn: "arn:aws:ses:us-east-1:885121665536:identity/joao.alves64@gmail.com",
     Tags: [
       {
         Name: "sender",
-        Value: "Manoj"
+        Value: "João"
       }
     ]
   };
